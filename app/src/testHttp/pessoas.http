@@ -1,0 +1,20 @@
+@url = https://8080-elisakirnew-sw2aapi2024-aglcd65x00m.ws-us116.gitpod.io
+
+###
+PUT {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "Registro Modificado",
+    "idade": 52
+}
+
+###
+GET {{url}}/pessoas
+
+###
+GET {{url}}/pessoas/1
+
+
+###
+DELETE {{url}}/pessoas/2
